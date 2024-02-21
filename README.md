@@ -1,6 +1,6 @@
 # flutter_connect_agriculture
 
-A new Flutter project.
+## 農業関連のマッチングサービス
 
 ## Getting Started
 
