@@ -17,11 +17,103 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  #url_launcher(flutterのアプリ内でWebサイトを表示したい時などに使用)
+  url_launcher: ^6.1.10
+
+  auto_size_text: ^3.0.0
+
+  flutter_svg: ^2.0.5
+
+  #import_sorter (Dartのインポートを自動的に整理するDartパッケージ)
+  import_sorter: ^4.6.0
+
+  # Riverpod関連(状態管理)
+  #riverpod コンパイル時にプログラミングエラーをキャッチ,オブジェクトをリッスン/結合するためのネストを削除,コードがテスト可能であることを確認します
+  flutter_riverpod: ^2.1.3
+
+  provider: ^6.0.5
+
+  #flutter_hooks ライフサイクルを管理する新しい種類のオブジェクトです
+  flutter_hooks: ^0.18.6
+
+  #JSONのシリアル化と逆シリアル化
+  json_annotation: ^4.8.0
+
+  #Firebase関連
+  #firebase_core
+  firebase_core: ^2.9.0
+
+  #firebase_analytics(アプリの使用状況とユーザー エンゲージメントについて分析できるアプリ測定ソリューションです。)
+  firebase_analytics: ^10.2.0
+
+  #cloud_firestore(NoSQL クラウド データベースを使用して、クライアント側開発とサーバー側開発のデータを保存、同期する)
+  cloud_firestore: ^4.5.0
+
+  #firebase_auth(パスワード、電話番号、一般的なフェデレーション ID プロバイダ（Google、Facebook、Twitter）などを使用した認証を行う)
+  firebase_auth: ^4.4.0
+
+  #firebase_storage(画像、音声、動画、またはその他のユーザーが生成したコンテンツを格納する)
+  firebase_storage: ^11.1.0
+
+  #cloud_functions
+  cloud_functions: ^4.1.0
+
+  #google_sign_in
+  google_sign_in: ^6.0.2
+
+  #go_router(Navigator2.0(宣言的な画面遷移)を簡単にする)
+  go_router: ^12.1.1
+  flutter_signin_button: ^2.0.0
+
+  #fake_cloud_firestore(Repositoryをダミーデータで返却するのに利用)
+  simple_logger: ^1.9.0
+  fake_cloud_firestore: ^2.4.1+1
+
+  # form_field_validate(カスタムのValidatorを作成したり、複数のValidatorを組み合わせるのに利用)
+  form_field_validator: ^1.1.0
+
+  #flutter_html HTMLとCSSをFlutterウィジェットとしてレンダリングするためのFlutterウィジェット
+  flutter_html: ^3.0.0-beta.2
+  uuid: ^3.0.7
+
+  universal_html: ^2.2.1
+
+  #dropdown_button(ドロップダウンボタンのUIを良くするために利用)
+  dropdown_button2: ^2.1.0
+
+  firebase_auth_mocks: ^0.11.0
+  #  google_sign_in_mocks: ^0.2.1
+  google_sign_in_mocks:
+    git: https://github.com/miyaji555/google_sign_in_mocks
+  image_picker_web: ^3.0.0+1
+  cached_network_image: ^3.2.3
+  path_provider: ^2.0.14
+  flutter_linkify: ^5.0.2
+  http: ^0.13.5
+  freezed_annotation: ^2.2.0
+  json_serializable: ^6.7.1
+  hooks_riverpod: ^2.1.3
+  flutter_spinkit: ^5.2.0
+  intl: ^0.17.0
+  tuple: ^2.0.1
+  async: ^2.11.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-flutter:
+
+  flutter_lints: ^2.0.1
+
+  import_lint: ^0.9.5
+  #freezed
+  freezed: ^2.3.5
+  build_runner: ^2.3.2
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
