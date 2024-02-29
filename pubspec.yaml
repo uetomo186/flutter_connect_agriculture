@@ -85,12 +85,6 @@ dependencies:
 
   #dropdown_button(ドロップダウンボタンのUIを良くするために利用)
   dropdown_button2: ^2.1.0
-
-  firebase_auth_mocks: ^0.11.0
-  #  google_sign_in_mocks: ^0.2.1
-  google_sign_in_mocks:
-    git: https://github.com/miyaji555/google_sign_in_mocks
-  image_picker_web: ^3.0.0+1
   cached_network_image: ^3.2.3
   path_provider: ^2.0.14
   flutter_linkify: ^5.0.2
