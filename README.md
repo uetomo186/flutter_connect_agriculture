@@ -2,14 +2,27 @@
 
 ## 農業関連のマッチングサービス
 
-## Getting Started
+### ディレクトリ構成予定
 
-This project is a starting point for a Flutter 
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_connect_agriculture
+├── core/            
+│  ├── config/
+│  ├── constants/
+│  ├── di/
+│  └── utils/
+├── domain/          
+│  ├── entities/
+│  ├── repositories/
+│  └── usecases/
+├── data/            
+│  ├── datasources/
+│  │   ├── local/
+│  │   └── remote/
+│  ├── mappers/
+│  ├── models/
+│  └── repositories/
+├── presentation/    
+│  ├── routers/                
+│  ├── viewmodels/
+│  ├── views/
+│  └── widgets/　　　　　　　　　
+└── main.dart
